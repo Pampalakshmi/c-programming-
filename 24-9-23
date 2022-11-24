@@ -1,0 +1,5 @@
+s=int(input("enter the simple interest:"))
+p=int(input("enter the principal amount:"))
+t=int(input("enter the time period:"))
+emi=s+p/t*12
+print(emi)
